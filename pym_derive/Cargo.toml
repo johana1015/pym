@@ -1,0 +1,21 @@
+[lib]
+proc-macro = true
+
+[package]
+name = "pym_derive"
+version = "0.1.0"
+authors = ["clearloop <udtrokia@gmail.com>"]
+edition = "2018"
+description = "A simple pyo3 wrapper to invoke python as dynamic scripts."
+repository = "https://github.com/clearloop/pym"
+license = "MIT"
+documentation = "https://docs.rs/pym"
+homepage = "https://github.com/clearloop/pym"
+keywords = ["python", "interpreter", "scripts"]
+readme = './README.md'
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+pyo3 = "0.8.5"
+quote = "1.0.2"
+syn = "1.0.13"
